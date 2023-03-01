@@ -43,8 +43,8 @@ defaults
 listen backend *:80
         mode http
         balance roundrobin
-        server 113-web-01 66.70.184.156:80 check
-        server 113-web-02 142.44.164.119:80 check
+        server 113-web-01 59.90.58.156:80 check
+        server 113-web-02 18.204.14.178:80 check
 
 frontend www-http
          bind 66.70.187.37:80
